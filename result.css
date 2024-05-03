@@ -1,0 +1,97 @@
+.lfs{
+    display: grid;
+    grid-template-rows: 200px;
+    /* grid-template-columns: 750px ; */
+    place-items: center;
+    background: linear-gradient(#71c5ee,#025091);
+    text-align: center;
+}
+#st{
+    color: white;
+    text-decoration: underline;
+}
+#lf{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+.info{
+    display: grid;
+    align-items: center;
+    /* background-image: url("bc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: aliceblue;
+    color: gray;
+}
+.personal{
+    /* text-align: center; */
+    display: block;
+    margin-left: 500px;
+    /* border: 2px solid black; */
+    
+}
+#pi{
+    text-decoration: underline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: red;
+}
+.edu{
+    /* text-align: center; */
+    display: block;
+    margin-left: 500px;
+    /* border: 2px solid black; */
+    
+}
+#ed{
+    text-decoration: underline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: red;
+}
+.con{
+    /* text-align: center; */
+    display: block;
+    margin-left: 500px;
+    /* border: 2px solid black; */
+    
+}
+#cd{
+    text-decoration: underline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: red;
+}
+.d{
+    /* text-align: center; */
+    display: block;
+    margin-left: 500px;
+    /* border: 2px solid black; */
+    
+}
+#d{
+    text-decoration: underline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: red;
+}
+.button {
+    position: absolute;
+    top: 900px;
+    left: 1200px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50;
+}

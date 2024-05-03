@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+
+    <script src="regester2.js"></script>
+
+    <div class="container">
+        <div class="form1">
+
+
+            <div class="actionBtns">
+                <button class="actionBtn registerBtn">Student Slot</button>
+                <button class="actionBtn requestBtn">Trainer Slot</button>
+                <button class="moveBtn ">Student Slot</button>
+            </div>
+            <br><br>
+            <div class="form2">
+                <form action="" class="form register registerform" onsubmit="return booked()">
+                    <div class="inputs one">
+                        <input type="text" placeholder="FULL NAME" autocomplete="off" required>
+                    </div>
+                    <div class="inputs two">
+                        <input type="email" placeholder="EMAIL" autocomplete="off" required>
+                    </div>
+                    <div class="inputs three">
+                        <input type="tel" placeholder="PHONE NUMBER" autocomplete="off" required>
+                    </div><br>
+                    <button type="submit" class="submitBtn four">Book Seat</button>
+                </form>
+
+                <form action="" class="form request">
+                    <label>1. Personal Information</label>
+                    <div class="inputs">
+                        <input type="text" placeholder="FULL NAME" autocomplete="off" required   id="std_name">
+                    </div>
+                    <div class="inputs input3">
+                        <input type="date" placeholder="DOB" autocomplete="off"  id="std_dob">
+                    </div>
+                    <div class="input4">
+                        <input type="radio" name="gender" value="female" autocomplete="off">female
+                        <input type="radio" name="gender" value="male" autocomplete="off">male
+                    </div>
+                    <div class="inputs">
+                        <input type="email" placeholder="EMAIL" autocomplete="off" id="mail" required>
+                    </div>
+                    <div class="inputs">
+                        <input type="tel" placeholder="PHONE NUMBER" autocomplete="off"  required id="phone">
+                    </div>
+                    <div class="inputs">
+                        <input type="text" placeholder="ADDRESS" autocomplete="off"  id="address">
+                    </div>
+                    <div class="inputs input1">
+                        <input type="text" placeholder="CITY" autocomplete="off"  id="city">
+                    </div>
+                    <div class="inputs input2">
+                        <input type="text" placeholder="COUNTRY" autocomplete="off"  id="country">
+                    </div>
+                  <button type="submit" class="submitBtn next"  onclick="info()">  <a href="language.html">Next</a></button>
+                 </form>
+            </div>
+        </div>
+    </div>
+    <script src="registration.js"></script>
+</body>
+</html>

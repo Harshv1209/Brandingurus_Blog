@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <script src="regester2.js"></script>
+   
+
+    <div class="container">
+        <div class="form1">
+
+
+            <div class="actionBtns edubtns">
+                <!-- <button class="actionBtn backBtn">⬅</button> -->
+                <button class="actionBtn eduBtn">Trainer Slot</button>
+                <!-- <button class="moveBtn ">Register for Q&A</button> -->
+            </div>
+            <!-- <a href="language.html" class="back"><h3>⬅</h3></a> -->
+
+            <br><br>
+            
+            
+            <div class="form2">
+                <form action="result.html" class="form register registerform" onsubmit="apply()">
+                    <label>3. Education</label><br><br>
+                     * College University 
+                     <div class="inputs">
+                        <input type="text" placeholder="INSTITUTION NAME" autocomplete="off"  required id="clgins">
+                    </div>
+                    <div class="inputs">
+                        <input type="text" placeholder="LEVEL ACHIEVED" autocomplete="off"  required id="clglevel">
+                    </div>
+                   * Secondary, High school, Middle school 
+                   <div class="inputs">
+                   <input type="text" placeholder="SCHOOL NAME" autocomplete="off" id="skulins">
+                </div>
+                <div class="inputs">
+                    <input type="text" placeholder="LEVEL ACHIEVED" autocomplete="off"   id="skulevel" >
+                </div>
+                 * I am a current student
+                 <input type="radio">Yes
+                 <input type="radio">No<br>
+                    
+                 <button  class="submitBtn reg1" onclick="xinfo()">Apply</a></button>
+                 <button  class="submitBtn next"><a href="language.html">Back</a></button>
+            
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="registration.js"></script>
+</body>
+</html>

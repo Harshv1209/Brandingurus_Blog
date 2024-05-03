@@ -1,0 +1,220 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    /* background-color: #cfe2f9; */
+    background-color: rgba(95, 95, 95, 0.39);
+   /* background: linear-gradient(#fde7fa, #fdefda); */
+    /* background-color: whitesmoke; */
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form1{
+    width: 600px;
+    min-height: 80vh;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#cfe2f9, #f5f9ff);
+}
+.actionBtns{
+    width: 80%;
+    background-color: #ffbb00;
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+.moveBtn{
+    position: absolute;
+    width: 50%;
+    height: 90%;
+    margin: 2px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    font-size: 120%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transform: translateX(0%);
+    transition: all 0.2s ease-in-out;
+}
+.actionBtn{
+    padding: 3%;
+    width: 50%;
+    border: none;
+    background-color: transparent;
+    border-radius: 50px;
+    color: white;
+    font-size: 120%;
+    font-weight: 600;
+    cursor: pointer;
+}
+.back{
+    position: absolute;
+    top: 13%;
+    left: 40%;
+    text-decoration: none;
+    color: white;
+}
+.reg{
+    position: absolute;
+    top: 68.7%;
+    left: 51%;
+}
+.reg1{
+    position: absolute;
+    top: 84%;
+    left: 51%;
+}
+.languageBtn{
+    width: 500%;
+    padding-left: 0%;
+}
+.eduBtn{
+    width: 500%;
+    padding-left: 0%;
+}
+
+.rightBtn{
+    transform: translateX(98%);
+    transition: all 0.2s ease-in-out;
+}
+.inputs{
+    width: 300px;
+    margin: 2em 0;
+    background-color: rgb(245, 245, 245);
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    font-weight: 500;
+    /* opacity: 0; */
+}
+.inputs input:focus{
+    background-color: #fffbe4;
+}
+.input1{
+    width: 100px;
+}
+.input2{
+    width: 150px;
+    position: absolute;
+    top: 74.5%;
+    left: 50%;
+}
+.input3{
+    width: 100px;
+}
+.input4{
+    width: 250px;
+    position: absolute;
+    top: 40.5%;
+    left: 50%;
+}
+
+.inputs input{
+    width: 100%;
+    padding: 1em 1.5em;
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+    /* font-size: 110%; */
+}
+.submitBtn{
+    width: 150px;
+    padding: 1em;
+    margin: 2em 0;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+    font-weight: 550;
+    transition: all 0.3s ease-in-out;
+}
+.submitBtn a{
+    color: black;
+}
+.submitBtn a:hover{
+    color: white;
+}
+
+.submitBtn:hover{
+    background-color: #d2f0bd;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.form{
+    display: none;
+}
+.registerform{
+    display: block;
+}
+.requestform{
+    display: block;
+}
+.language{
+    position: absolute;
+    top: 50%;
+}
+.inputs::after{
+    opacity: 1;
+}
+.one{
+    animation: first 1s ease-in-out 0s  ;
+}
+@keyframes first{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.two{
+    animation: second 1s ease-in-out 1s ;
+}
+@keyframes second{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.three{
+    animation: second 1s ease-in-out 2s ;
+}
+@keyframes second{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.four{
+    animation: second 1s ease-in-out 3s ;
+}
+@keyframes second{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

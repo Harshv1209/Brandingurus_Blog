@@ -1,0 +1,111 @@
+.all{
+    background-color: aliceblue;
+    height: 150%;
+}
+.baba img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 250px;
+    left: 659px;
+    animation: baba 3.5 forwards;
+    transform: translateX(-120vh);
+    animation-duration: 3.5s;
+    animation-iteration-count:1;
+    animation-delay: 10s;
+    opacity: 1;
+}
+@keyframes baba{
+    100%{
+        transform: translateX(0);
+    }
+}
+.container{
+    position: relative;
+    height: 80vh;
+}
+.word{
+    width: 90%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 87%;
+    left: 50%;
+    text-align: center;
+
+}
+#g{
+    font-family: Trattatello, fantasy;
+    font-weight: 600;
+}
+#g a{
+    text-decoration: none;
+    color: gray;
+}
+.word span{
+    color: gray;
+    display: inline-block;
+    font-size: 5vw;
+    font-weight: 700;
+    position: relative;
+    transform: translateY(-100vh);
+    animation: fall 3.5s forwards;
+}
+@keyframes fall{
+    100%{
+        transform: translateY(0);
+    }
+}
+.word span:nth-child(1){
+    animation-delay: 0.7s;
+}
+.word span:nth-child(2){
+    animation-delay: 1.4s;
+}
+.word span:nth-child(3){
+    animation-delay: 2.1s;
+}
+.word span:nth-child(4){
+    animation-delay: 2.8s;
+}
+.word span:nth-child(5){
+    animation-delay: 3.5s;
+}
+.word span:nth-child(6){
+    animation-delay: 4.2s;
+}
+.word span:nth-child(7){
+    animation-delay: 4.8s;
+}
+.word span:nth-child(8){
+    animation-delay: 5.5s;
+}
+.word span:nth-child(9){
+    animation-delay: 6.3s;
+}
+.word span:nth-child(10){
+    animation-delay: 7.0s;
+}
+.word span:nth-child(11){
+    animation-delay: 7.7s;
+}
+.word span:nth-child(12){
+    animation-delay: 8.4s;
+}
+.word span:nth-child(13){
+    animation-delay: 9.1s;
+}
+.circle img{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 28%;
+    left: 40%;
+    text-align: center;
+    transform: translateY(-100vh);
+    animation: fallc 3.5s forwards;
+    animation-delay: 10s;
+}
+@keyframes fallc{
+    100%{
+        transform: translateY(0);
+    }
+}
